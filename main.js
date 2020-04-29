@@ -86,3 +86,43 @@ document.getElementById("root").append(
 
             ]))
 )
+
+document.getElementById("root").append(
+
+    //***********************Left Side**************************
+
+    FueJS.createElement("div", {
+        className: 'leftSide'
+    }, 
+    
+        //----------Logo Of AntiVirus------------    
+
+    [FueJS.createElement("img", {
+        className: 'spinRadar',
+        src: './images/radar-angle.png'
+    }), FueJS.createElement("div", {
+        className: 'radarPart'
+    }, [FueJS.createElement("img", {
+        className: 'logo',
+        src: './images/logo.png',
+        alt: 'Logo of Anti-Virus'
+    }), FueJS.createElement("span", {
+        className: 'spinRadar'
+    }), FueJS.createElement("span", {
+        className: 'palseWave',
+    }), FueJS.createElement("span", {
+        className: 'palseWave'
+    }), FueJS.createElement("span", {
+        className: 'palseWave'
+    }), FueJS.createElement("span", {
+        className: 'palseWave'
+    }), FueJS.createElement("span", {
+        className: 'palseWave'
+    }), FueJS.createElement("span", {
+        className: 'palseWave'
+    }), FueJS.createElement("span", {
+        className: 'palseWave'
+    })]), FueJS.createElement("h3", {
+
+    }, 'Multi Anti-Virus & Cybersecurity')])
+)
