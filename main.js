@@ -88,13 +88,19 @@ document.getElementById("root").append(
 )
 
 document.getElementById("root").append(
+    FueJS.createElement("div" , {
+        className : 'gap'
+    })
+)
+
+document.getElementById("root").append(
 
     //***********************Left Side**************************
 
     FueJS.createElement("div", {
         className: 'leftSide'
     }, 
-    
+
         //----------Logo Of AntiVirus------------    
 
     [FueJS.createElement("img", {

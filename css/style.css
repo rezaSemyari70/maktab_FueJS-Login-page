@@ -304,3 +304,43 @@ h3{
     font-size: 16px;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 992px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rightSide{
+        width: 100vw;
+        min-height: 100vh;
+        margin-bottom: 50px;
+    }
+
+    .secur{
+        width: 10%;
+    }
+    .leftSide{
+        min-height: 100vh;
+        min-width: 100vw;
+    }
+
+    .contentRight{
+        min-width: 50vw;
+    }
+
+    .gap{
+        width: 100%;
+        height: 20px;
+        display: block;
+        clear: both;
+    }
+
+    .spinRadar{
+        position: absolute;
+        transform-origin: bottom left;
+        bottom: 50vh;
+        left: 50vw !important;
+    }
+    
+}
