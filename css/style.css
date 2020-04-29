@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "Shabnam";
+    src:
+        url("../fonts/Shabnam.woff") format("woff");
+
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    direction: rtl;
+    font-family: "Shabnam";
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.rightSide {
+    width: 45%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-family: "Shabnam";
+}
+
+.contentRight {
+    width: 63%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: "Shabnam";
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: bolder;
+    padding-top: 62px;
+    margin-bottom: 130px;
+    color: #0192ed;
+    font-family: "Shabnam";
+}
+
+h1 {
+    font-size: 20px;
+    color: #424242;
+}
+
+.titleInput {
+    font-size: 14px;
+    color: #9d9d9d;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+.emailInput {
+    border-bottom: 0.5px solid #0093f0 !important;
+}
+
+.emailInput,
+.passInput,
+.securInput {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 0.5px solid #efefef;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-top: 5px;
+}
+
+.email,
+.pass,
+.securCode {
+    width: 90%;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.fas,
+.fa {
+    color: #bdbdbd;
+}
+
+.fa-user:before {
+    content: "\f007";
+    color: #0093ed;
+}
+
+.email {
+    margin-bottom: 5px !important;
+    font-size: 16px;
+}
+
+.email::placeholder {
+    color: #0093ed;
+}
+
+input::placeholder {
+    font-family: 'Shabnam';
+    color: #bdbdbd;
+}
+
+.code {
+    display: flex;
+    align-items: center;
+}
+
+.secur {
+    width: 50%;
+    background-color: transparent;
+    border-bottom: 0.5px solid #efefef;
+    display: flex;
+    justify-content: space-between;
+}
+
+.securCode {
+    max-width: 50%;
+}
+
+.securInput {
+    border-bottom: none;
+    padding-left: 0px;
+}
+
+.fa-th:before {
+    content: "\f00a";
+    padding-left: 5px;
+}
+
+button {
+    width: 100%;
+    background-color: #0093ed;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+    padding: 13px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Shabnam;
+    color: white;
+    box-shadow: 1px 2px 4px #bebebe;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.check {
+    color: gray;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.checkBox {
+    width: 10px;
+    height: 10px;
+    margin-left: 5px;
+}

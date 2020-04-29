@@ -31,3 +31,11 @@ FueJS.createElement = function (type, props, children) {
     }
     return element;
 }
+
+FueJS.getFormData = function (form){
+    const obj = {} ;
+    for(let value of new FormData(form).entries()){
+        obj[value[0]] = value[1] ;
+    }
+    return obj ;
+}
